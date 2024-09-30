@@ -1,0 +1,18 @@
+.header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .header nav ul li {
+    display: inline-block;
+    font-size: 1.2em;
+  }
+  
