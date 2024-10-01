@@ -1,5 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/home';        // Import Home from pages folder
+import Projects from './pages/project'; // Import Projects from pages folder
+import About from './pages/about';       // Import About from pages folder
+import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
